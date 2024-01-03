@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+    int name,dob,mob;
+    printf("name: ");
+    scanf("%s",&name);
+    printf("date of birth: ");
+    scanf("%d",&dob);
+    printf("mobile number: ");
+    scanf("%d",&mob);
+    printf("name=%s\ndateof birth=%d\nmobilenumber=%d",name,dob,mob);
+}
