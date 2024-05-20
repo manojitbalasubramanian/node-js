@@ -1,0 +1,23 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "node_js_crash_corse",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojitbalasubramanian/node-js.git"
+  },
+  "author": "manojitbalasubramanian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manojitbalasubramanian/node-js/issues"
+  },
+  "homepage": "https://github.com/manojitbalasubramanian/node-js#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
